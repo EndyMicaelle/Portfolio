@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #171D26;
+}
+
+a { /** Limpar formatação do link **/
+    text-decoration: none;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none; /** reseta o estilo do item de lista **/
+}
+
+.container {
+    width: 100%;
+    max-width: 121.6rem; /** move lista **/
+    margin: 0 auto;
+}
+
+header {
+    position: sticky; /** Deixa fixo na hora que rolar **/
+    top: 0;
+    width: 100%;
+    pad: 3rem 0;
+    background-color: #171D26;
+    z-index: 2023; /** header passar por cima de todas as sessoes **/
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /** menus lista direita **/
+}
+
+header nav ul {
+    display: flex; /** menu lado a lado **/
+    gap: 2.4rem;
+}
+
+header nav ul li a {
+    font-size: 1.8rem;
+    padding: 1.5rem 3.2rem; /** espaço entre os links **/
+    border-radius: 5px; /** borda arrendodada **/
+    transition: all .3s ease;
+}
+
+header nav ul li a.actived {
+    background-color: #ffff;
+    color: #653df5;
+}
+
+.section {
+    width: 100%;
+    height: calc(100vh - 11.2rem); /** pegar certinho tamanho da navegaçao **/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
+}
+
+#home {
+    background-color: #653df5;
+}
+
+#about {
+    background-color: #8161f4;
+}
+
+#services {
+    background-color: #9d85f3;
+}
+
+#portfolio {
+    background-color: #263140;
+}
+
+#contact {
+    background-color: #2e3b4d;
+}
