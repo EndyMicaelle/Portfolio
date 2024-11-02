@@ -17,28 +17,57 @@
         <div class="container">
             <a href="#">
                 <img src="#" alt="">
-                <h1>BRANDX</h1>
+                <h1>PORTFOLIO</h1>
             </a>
             <nav>
                 <ul>
-                    <li><a href="#home" class="actived">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" class="actived js-link">Home</a></li> <!--itens clicaveis-->
+                    <li><a href="#about" class="actived js-link">About</a></li>
+                    <li><a href="#services" class="actived js-link">Services</a></li>
+                    <li><a href="#portfolio" class="actived js-link">Portfolio</a></li>
+                    <li><a href="#contact" class="actived js-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-<section id="home" class="section">Home</section>
 
-<section id="about" class="section">About</section>
+<!--home-->
 
-<section id="services" class="section">Services</section>
+<section id="home" class="section">
+    <h2>Olá, eu sou a <span>Endy Micaelle</span></h2>
+    <p>Desenvovedora Front-End.</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAflJREFUWEft18+rTVEUwPHPUwYyQ1EGJjyZKKUkykAmCj0phamkhIGU/IgwJBOlN0VKmWAiyY9CGSj5UZj4A0RJBko5S+fodqz7zr286966d9WZ7L32Xt+z1tpr7T1mwGRswHiMgJoi0s5Dy3EAS/Ea5/G2abPpmM+AVuAxZrUY+ITVeDcdRqfaIwO6gp3JokvY2w+g5wgv1eUR1vUD6GoRmh2J4Uns6QfQSjzBzBbjX8ocetMPoLAZUAfLU/aqPGUvew0T+w9dYVyARUVN+4wP+N7k5cxDG3A0WXgET8vxhYjkr8thPCvLxgmMtyj8wF1cKPLxTjuwDGgXLicLNuNWOb64MPo+0dmICexu8MQ5HMp0ugHaVCT77Qage1jfFJZyfhtu1HW7AdqCmw1AHbL8UovQrvoXoE5CVu0fvS/KRPzwWsxoQzoXoftbuvFQJyGLjSPZo4Z9LK2sKZN4dgIVrSha0l8BdeKhr5iPbzXjpxCnri7Roq71Eug6tieGw7tV/rVO78PFXgKdxbEEKO5S0R/rchxnegkUoTmZGI4b6Itk/A/9bpK69dgvaXN7PN0mV5YhuymMgKoojTxUeWKUQ1VxG+5TFkVsa1LEoudUz+k5RZfen+g8LN5u95PxeUWzjTZRlweIb8rmmqz7f0ND9+ro2rUD56GfHKqHJb+OjGwAAAAASUVORK5CYII="/>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA2dJREFUWEftmFmoTlEUx3/XmPEFmSKU+cWQmSSEDMnsQRIiQyREMstMhjIrJZJIhoQomWeRMmeIFHmRzNP+3/bRubt9hu9+38NN1tt3zl5r/fbaa6+1zpdHEZO8IsbDPwPUGhgGtAOqA1WAYsBb4B1wHdgDXMj0BDKJUElgNDDNOKuf0tFzYD2wGfiaRict0CBgI1AtjVHPGkVOG1HUYiUN0HRgJeQk3+YAS+OIkoAEMiNpVxm+1xFOjdKJA5qdtJsMQcLL5wJLfPpRQIOB/Y5CX5OcVYFJQLOUMI9s7j0ATjnHPtTjw5sXuk0yVCfk9L5RbhL6PQAYBbwCngLPgO/29tUDagN7gX3Ab6t3FVC5COSFXS+9v+KL0BhguxMB7a5HyqhELTsE9HdejgV2JAE9NLtr4CjeBlpkCXQZaOvYkK9GcUBNgXsexzLWPkugY6aC9/bYEJDA8sU9snnm2UJH6ZfdxeMsgWqYvFPelHDs6DYvjwI6Aug2heWM6UndsoQJ1I8CfRxbh8O55UboGtDKUVgFzMwR0AJz6+bH5acLpJDqyoZFBUyFLBeifrbGMfQeqBx1ZC+BWo6COvWEXNDYyq+cCcsnoFwU0C2guaNwEuiZI6ADwEDHlkaUulFAx4FejsI3U/4rAR+zhCpth7cKjp2LQMcoIOXKIo9jlYPFWQJpatD04EqBS+MmtYqfiF35AnQxR3elkFAtgfNAGY++WpJaU764QPqtSh00UjXExkBFe2RTTNPdBahYppHipvmOsB2/vEfhCdAwbM/XXEdap9JXo91tG6AMS1QaTttOv9aMph8cR2UNvKZMTQsqqO6tDS8fbz4StoYf+ID07EaomU60QGftV0agr9FieESYtgHq5HFy1/r4mQSk923MuKGGKrjPZhypacO6DBhi5yVF4VKER81LB2NoNCN1sD4KLIsbYScDG+zqFcCsNElj13QCzsWsVy4GtlMDaaHKvMq9ROVgC/AmBVhnQEfsk9VxHw5JXx0yqN2s81juB6h7+6SrTfzwOx2T5vFNcRtKAyR91aedznQXB6TaciLkWKVEN1ZlJFbSAslIKXNc4+yV1kTQ3ROFwJm++ZXwr21D1YxeYJiPosoEKLChPxXUgG8mbFbV+Q7wIykq4feFAcrEfsZr/wMlhewPsfWUJfen6EsAAAAASUVORK5CYII="/>
+</section>
+
+<!--about-->
+
+<section id="about" class="section">
+    <p>Aos 30 anos decidi voltar a minha grande paixão, a tecnologia. Nos estudos foquei em Front-End, onde puder expressar minha criatividade e paixão de  forma conjunta, e trazendo forma e sentido.</p>
+</section>
+
+<!--services-->
+
+<section id="services" class="section">
+    <h3>Web Design</h3>
+    <p>Criação de sistema web, atraente, responsivo.</p>
+
+    <h3>SEO Google</h3>
+    <p>Para que o sistema fique otimizado, melhorando o ranking da pequisa so seu site no Google.</p>
+</section>
+
+<!--portfolio-->
 
 <section id="portfolio" class="section">Protfolio</section>
 
-<section id="contact" class="section">Contact</section>
+<!--contact-->
+
+<section id="contact" class="section">
+    <h3>Contato</h3>
+
+    <p>(19)98128-8028</p>
+    <p>endymicaelleleite@gmail.com</p>
+</section>
 
 
     <script src="./scripts.js"></script>
